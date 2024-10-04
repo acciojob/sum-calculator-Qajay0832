@@ -14,7 +14,7 @@ const App = () => {
         {/* Do not remove the main div */}
         <h1>Sum Calculator</h1>
         <input type='number' value={input} onChange={(e)=>setInput(e.target.value)}></input>
-        <p>Sum:{sum}</p>
+        <p>{'Sum: '+sum}</p>
     </div>
   )
 }
